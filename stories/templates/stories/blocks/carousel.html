@@ -1,0 +1,6 @@
+{% load wagtailcore_tags %}
+<div class="carousel">
+    {% for block in value %}
+        {% include_block block %}
+    {% endfor %}
+</div>
