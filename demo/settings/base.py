@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'modelcluster',
     'taggit',
     'wagtail_webstories',
+    'wagtailmedia',
 
     'django.contrib.admin',
     'django.contrib.auth',
